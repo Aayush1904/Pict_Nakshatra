@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-// import Loader from '../Components/Loader'
 // import { Canvas } from '@react-three/fiber'
 import { Bio } from "../data/constants";
 // import { Suspense } from 'react'
