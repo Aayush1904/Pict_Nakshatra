@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import Loader from '../Components/Loader'
-import { Canvas } from '@react-three/fiber'
+// import Loader from '../Components/Loader'
+// import { Canvas } from '@react-three/fiber'
 import { Bio } from "../data/constants";
-import { Suspense } from 'react'
+// import { Suspense } from 'react'
 import Typewriter from "typewriter-effect";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
@@ -243,14 +243,14 @@ const Hero = () => {
             <HeroRightContainer>
               <motion.div {...headContentAnimation}>
                 <Tilt>
-                  <Canvas className='w-full h-screen bg-transparent' camera ={{near: 0.1 , far: 1000}}>
+                  {/* <Canvas className='w-full h-screen bg-transparent' camera ={{near: 0.1 , far: 1000}}>
                         <Suspense fallback ={<Loader />}>
                         <directionalLight position = {[1,1,1]} intensity={2}/>
                         <ambientLight intensity={0.5}/>
                         <hemisphereLight skyColor = "#b1e1ff" groundColor="#000000" intensity={1}/>
                         
                         </Suspense>
-                    </Canvas>
+                    </Canvas> */}
                 </Tilt>
               </motion.div>
             </HeroRightContainer>
